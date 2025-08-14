@@ -1,0 +1,24 @@
+/***** Minimal globals compatible with Bootstrap *****/
+:root {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  line-height: 1.5;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f8f9fa; /* Bootstrap light gray */
+  color: #212529; /* Bootstrap body color */
+}
+
+/* Links inherit Bootstrap styling */
+a {
+  text-decoration: none;
+}
+
+/* Remove template button overrides to avoid conflicting with Bootstrap */
